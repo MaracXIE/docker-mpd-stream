@@ -11,4 +11,4 @@ EXPOSE 6600 8000
 VOLUME ["/music"]
 VOLUME ["/mpd"]
 RUN /usr/bin/mpd /etc/mpd.conf
-ENTRYPOINT ["/usr/bin/ncmpc",  "-p", "6678"]
+ENTRYPOINT ["/usr/bin/ncmpc"]
