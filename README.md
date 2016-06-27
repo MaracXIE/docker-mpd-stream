@@ -14,3 +14,4 @@ MPD-Server Port: 6600
 Password: <add one to the conf?>
 Streaming Port: 8000
 ```
+Note: Allow port 6600 through firewall
