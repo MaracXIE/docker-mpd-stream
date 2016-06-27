@@ -8,7 +8,8 @@ RUN apt install -y bash
 ADD mpd.conf /etc/
 ADD mpd.sh /etc/
 
-EXPOSE 6600 8000
+EXPOSE 6600
+EXPOSE 8000
 
 VOLUME ["/music"]
 VOLUME ["/mpd"]
