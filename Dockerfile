@@ -12,4 +12,6 @@ EXPOSE 8000
 
 VOLUME ["/music"]
 VOLUME ["/mpd"]
+VOLUME ["/playlists"]
+
 ENTRYPOINT [ "bash", "/etc/mpd.sh" ]
