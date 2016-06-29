@@ -2,12 +2,12 @@
 Why not spin up your own streaming service how you want it?
 
 ### Usage
+Edit init.sh and then
 ```
-docker build -t mpdocker .
-docker run -dit -p 6600:6600 -p 8000:8000 -v /home/freak/Music:/music -v /dev/shm:/mpd mpdocker
+bash init.sh
 ```
 
-### MPDroid info
+##  MPDroid info
 ```
 MPD-Server Host: your hostname/ip
 MPD-Server Port: 6600
